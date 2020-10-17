@@ -1,0 +1,39 @@
+
+## protoc
+PC版: 
+./autoconf.sh
+./configure --prefix=/usr/local/PC/protobuf
+make && make install
+交叉版: 
+make clean 
+./configure --prefix=/usr/local/v831/protobuf \
+    --host=arm-openwrt-linux \
+    CC=/root/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc \
+    CXX=/root/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++ \
+    --with-protoc=/usr/local/PC/protobuf/bin/protoc
+make && make install
+
+## 编译ncnn
+export PATH=$PATH:/root/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin:/usr/local/v831/protobuf
+export Protobuf_IMPORT_DIRS=/usr/local/v831/protobuf
+export PROTOBUF_INCLUDE_DIR=/usr/local/v831/protobuf/include
+export PROTOBUF_LIBRARY=/usr/local/v831/protobuf/lib/libprotobuf.a
+export PROTOBUF_LITE_LIBRARY=/usr/local/v831/protobuf/lib/libprotobuf-lite.so
+export PROTOBUF_PROTOC_EXECUTABLE=/usr/local/PC/protobuf/bin/protoc
+export Protobuf_LIBRARIES=/usr/local/v831/protobuf/lib
+export Protobuf_LIBRARY_RELEASE=/usr/local/v831/protobuf/lib
+
+cmake -DCMAKE_TOOLCHAIN_FILE=../toolchains/arm-linux-openwrt.toolchain.cmake ..
+
+cmake -DCMAKE_TOOLCHAIN_FILE=../toolchains/arm-linux-openwrt.toolchain.cmake -DOpenCV_DIR=../opencv .. 
+export LD_LIBRARY_PATH=/root/v831-ncnn-main/protobuf-3.4.0/build/lib/:$LD_LIBRARY_PATH
+export CPLUS_INCLUDE_PATH=/root/v831-ncnn-main/protobuf-3.4.0/build/include:$CPLUS_INCLUDE_PATH
+
+
+## 编译测试 / Compile test
+```bash
+mkdir build
+cd build 
+cmake -DCMAKE_TOOLCHAIN_FILE=../test/cross_compile.cmake ../test/
+make -j4
+```
