@@ -1,0 +1,1657 @@
+The target system is: Linux -  - arm
+The host system is: Linux - 4.19.128-microsoft-standard - x86_64
+Compiling the C compiler identification source file "CMakeCCompilerId.c" succeeded.
+Compiler: /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+
+
+Compilation of the C compiler identification source "CMakeCCompilerId.c" produced "a.out"
+
+The C compiler identification is GNU, found in "/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/3.10.2/CompilerIdC/a.out"
+
+Compiling the CXX compiler identification source file "CMakeCXXCompilerId.cpp" succeeded.
+Compiler: /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++ 
+Build flags: 
+Id flags:  
+
+The output was:
+0
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+
+
+Compilation of the CXX compiler identification source "CMakeCXXCompilerId.cpp" produced "a.out"
+
+The CXX compiler identification is GNU, found in "/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/3.10.2/CompilerIdCXX/a.out"
+
+Determining if the C compiler works passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2bf54/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2bf54.dir/build.make CMakeFiles/cmTC_2bf54.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2bf54.dir/testCCompiler.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_2bf54.dir/testCCompiler.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/testCCompiler.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_2bf54
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2bf54.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_2bf54.dir/testCCompiler.c.o  -o cmTC_2bf54 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Detecting C compiler ABI info compiled with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_cc415/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cc415.dir/build.make CMakeFiles/cmTC_cc415.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_cc415.dir/CMakeCCompilerABI.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_cc415.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_cc415
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc415.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc     -v -rdynamic CMakeFiles/cmTC_cc415.dir/CMakeCCompilerABI.c.o  -o cmTC_cc415 
+Reading specs from /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/specs
+COLLECT_GCC=arm-openwrt-linux-muslgnueabi-gcc.bin
+COLLECT_LTO_WRAPPER=/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper
+Target: arm-openwrt-linux-muslgnueabi
+Configured with: /home/caiyongheng/tina/out/astar-parrot/compile_dir/toolchain/gcc-linaro-6.4-2017.11/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 6.4-2017.11 2017-11' --prefix=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --enable-libgomp --disable-libmudflap --disable-multilib --disable-nls --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/home/caiyongheng/tina/out/host --with-mpfr=/home/caiyongheng/tina/out/host --with-mpc=/home/caiyongheng/tina/out/host --disable-decimal-float --with-diagnostics-color=auto-if-env --disable-libssp --enable-__cxa_atexit --with-arch=armv7-a --with-float=hard --with-headers=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain/include --disable-libsanitizer --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain/lib --enable-lto --with-libelf=/home/caiyongheng/tina/out/host
+Thread model: posix
+gcc version 6.4.1 (OpenWrt/Linaro GCC 6.4-2017.11 2017-11) 
+COMPILER_PATH=/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/:/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/bin/
+LIBRARY_PATH=/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/:/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cc415' '-march=armv7-a' '-mfloat-abi=hard' '-mtls-dialect=gnu'
+ /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2 -plugin /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so -plugin-opt=/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVL0z75.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_cc415 /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o -L /usr/lib -rpath-link /usr/lib -L/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1 -L/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib CMakeFiles/cmTC_cc415.dir/CMakeCCompilerABI.c.o -lssp_nonshared -lgcc_s -lc -lgcc_s /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cc415' '-march=armv7-a' '-mfloat-abi=hard' '-mtls-dialect=gnu'
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Parsed C implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-openwrt-linux-muslgnueabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_cc415/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_cc415.dir/build.make CMakeFiles/cmTC_cc415.dir/build]
+  ignore line: [make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building C object CMakeFiles/cmTC_cc415.dir/CMakeCCompilerABI.c.o]
+  ignore line: [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_cc415.dir/CMakeCCompilerABI.c.o   -c /usr/share/cmake-3.10/Modules/CMakeCCompilerABI.c]
+  ignore line: [arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined]
+  ignore line: [Linking C executable cmTC_cc415]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cc415.dir/link.txt --verbose=1]
+  ignore line: [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc     -v -rdynamic CMakeFiles/cmTC_cc415.dir/CMakeCCompilerABI.c.o  -o cmTC_cc415 ]
+  ignore line: [Reading specs from /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/specs]
+  ignore line: [COLLECT_GCC=arm-openwrt-linux-muslgnueabi-gcc.bin]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper]
+  ignore line: [Target: arm-openwrt-linux-muslgnueabi]
+  ignore line: [Configured with: /home/caiyongheng/tina/out/astar-parrot/compile_dir/toolchain/gcc-linaro-6.4-2017.11/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 6.4-2017.11 2017-11' --prefix=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --enable-libgomp --disable-libmudflap --disable-multilib --disable-nls --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/home/caiyongheng/tina/out/host --with-mpfr=/home/caiyongheng/tina/out/host --with-mpc=/home/caiyongheng/tina/out/host --disable-decimal-float --with-diagnostics-color=auto-if-env --disable-libssp --enable-__cxa_atexit --with-arch=armv7-a --with-float=hard --with-headers=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain/include --disable-libsanitizer --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain/lib --enable-lto --with-libelf=/home/caiyongheng/tina/out/host]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.4.1 (OpenWrt/Linaro GCC 6.4-2017.11 2017-11) ]
+  ignore line: [COMPILER_PATH=/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/:/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/:/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/]
+  ignore line: [arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined]
+  ignore line: [arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_cc415' '-march=armv7-a' '-mfloat-abi=hard' '-mtls-dialect=gnu']
+  link line: [ /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2 -plugin /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so -plugin-opt=/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccVL0z75.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_cc415 /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o -L /usr/lib -rpath-link /usr/lib -L/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1 -L/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib CMakeFiles/cmTC_cc415.dir/CMakeCCompilerABI.c.o -lssp_nonshared -lgcc_s -lc -lgcc_s /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o]
+    arg [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccVL0z75.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-armhf.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_cc415] ==> ignore
+    arg [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o] ==> ignore
+    arg [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o] ==> ignore
+    arg [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o] ==> ignore
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [-rpath-link] ==> ignore
+    arg [/usr/lib] ==> ignore
+    arg [-L/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1] ==> dir [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1]
+    arg [-L/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc] ==> dir [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc]
+    arg [-L/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib] ==> dir [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib]
+    arg [CMakeFiles/cmTC_cc415.dir/CMakeCCompilerABI.c.o] ==> ignore
+    arg [-lssp_nonshared] ==> lib [ssp_nonshared]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o] ==> ignore
+    arg [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o] ==> ignore
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1] ==> [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1]
+  collapse library dir [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc] ==> [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/lib/gcc]
+  collapse library dir [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib] ==> [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/arm-openwrt-linux-muslgnueabi/lib]
+  implicit libs: [ssp_nonshared;gcc_s;c;gcc_s]
+  implicit dirs: [/usr/lib;/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1;/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/lib/gcc;/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/arm-openwrt-linux-muslgnueabi/lib]
+  implicit fwks: []
+
+
+
+
+Detecting C [-std=c11] compiler features compiled with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_33803/fast"
+/usr/bin/make -f CMakeFiles/cmTC_33803.dir/build.make CMakeFiles/cmTC_33803.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_33803.dir/feature_tests.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831  -std=c11 -o CMakeFiles/cmTC_33803.dir/feature_tests.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/feature_tests.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_33803
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_33803.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_33803.dir/feature_tests.c.o  -o cmTC_33803 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:1c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c99] compiler features compiled with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d4fe1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d4fe1.dir/build.make CMakeFiles/cmTC_d4fe1.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d4fe1.dir/feature_tests.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831  -std=c99 -o CMakeFiles/cmTC_d4fe1.dir/feature_tests.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/feature_tests.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_d4fe1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d4fe1.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_d4fe1.dir/feature_tests.c.o  -o cmTC_d4fe1 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:1c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:1c_variadic_macros
+
+
+Detecting C [-std=c90] compiler features compiled with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c6b12/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c6b12.dir/build.make CMakeFiles/cmTC_c6b12.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c6b12.dir/feature_tests.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831  -std=c90 -o CMakeFiles/cmTC_c6b12.dir/feature_tests.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/feature_tests.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_c6b12
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c6b12.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_c6b12.dir/feature_tests.c.o  -o cmTC_c6b12 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: C_FEATURE:1c_function_prototypes
+    Feature record: C_FEATURE:0c_restrict
+    Feature record: C_FEATURE:0c_static_assert
+    Feature record: C_FEATURE:0c_variadic_macros
+Determining if the CXX compiler works passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_e4751/fast"
+/usr/bin/make -f CMakeFiles/cmTC_e4751.dir/build.make CMakeFiles/cmTC_e4751.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_e4751.dir/testCXXCompiler.cxx.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++  -DV831   -o CMakeFiles/cmTC_e4751.dir/testCXXCompiler.cxx.o -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/testCXXCompiler.cxx
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_e4751
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_e4751.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++       -rdynamic CMakeFiles/cmTC_e4751.dir/testCXXCompiler.cxx.o  -o cmTC_e4751 
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Detecting CXX compiler ABI info compiled with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_87ee9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_87ee9.dir/build.make CMakeFiles/cmTC_87ee9.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_87ee9.dir/CMakeCXXCompilerABI.cpp.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++  -DV831   -o CMakeFiles/cmTC_87ee9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_87ee9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87ee9.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++      -v -rdynamic CMakeFiles/cmTC_87ee9.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_87ee9 
+Reading specs from /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/specs
+COLLECT_GCC=arm-openwrt-linux-muslgnueabi-g++.bin
+COLLECT_LTO_WRAPPER=/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper
+Target: arm-openwrt-linux-muslgnueabi
+Configured with: /home/caiyongheng/tina/out/astar-parrot/compile_dir/toolchain/gcc-linaro-6.4-2017.11/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 6.4-2017.11 2017-11' --prefix=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --enable-libgomp --disable-libmudflap --disable-multilib --disable-nls --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/home/caiyongheng/tina/out/host --with-mpfr=/home/caiyongheng/tina/out/host --with-mpc=/home/caiyongheng/tina/out/host --disable-decimal-float --with-diagnostics-color=auto-if-env --disable-libssp --enable-__cxa_atexit --with-arch=armv7-a --with-float=hard --with-headers=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain/include --disable-libsanitizer --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain/lib --enable-lto --with-libelf=/home/caiyongheng/tina/out/host
+Thread model: posix
+gcc version 6.4.1 (OpenWrt/Linaro GCC 6.4-2017.11 2017-11) 
+COMPILER_PATH=/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/:/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/bin/
+LIBRARY_PATH=/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/:/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_87ee9' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mtls-dialect=gnu'
+ /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2 -plugin /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so -plugin-opt=/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRvox1p.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_87ee9 /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o -L /usr/lib -rpath-link /usr/lib -L/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1 -L/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib CMakeFiles/cmTC_87ee9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lssp_nonshared -lgcc_s -lc -lgcc_s /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o
+COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_87ee9' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mtls-dialect=gnu'
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Parsed CXX implicit link information from above output:
+  link line regex: [^( *|.*[/\])(arm-openwrt-linux-muslgnueabi-ld|CMAKE_LINK_STARTFILE-NOTFOUND|([^/\]+-)?ld|collect2)[^/\]*( |$)]
+  ignore line: [Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp]
+  ignore line: []
+  ignore line: [Run Build Command:"/usr/bin/make" "cmTC_87ee9/fast"]
+  ignore line: [/usr/bin/make -f CMakeFiles/cmTC_87ee9.dir/build.make CMakeFiles/cmTC_87ee9.dir/build]
+  ignore line: [make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp']
+  ignore line: [Building CXX object CMakeFiles/cmTC_87ee9.dir/CMakeCXXCompilerABI.cpp.o]
+  ignore line: [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++  -DV831   -o CMakeFiles/cmTC_87ee9.dir/CMakeCXXCompilerABI.cpp.o -c /usr/share/cmake-3.10/Modules/CMakeCXXCompilerABI.cpp]
+  ignore line: [arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined]
+  ignore line: [Linking CXX executable cmTC_87ee9]
+  ignore line: [/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_87ee9.dir/link.txt --verbose=1]
+  ignore line: [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++      -v -rdynamic CMakeFiles/cmTC_87ee9.dir/CMakeCXXCompilerABI.cpp.o  -o cmTC_87ee9 ]
+  ignore line: [Reading specs from /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/specs]
+  ignore line: [COLLECT_GCC=arm-openwrt-linux-muslgnueabi-g++.bin]
+  ignore line: [COLLECT_LTO_WRAPPER=/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper]
+  ignore line: [Target: arm-openwrt-linux-muslgnueabi]
+  ignore line: [Configured with: /home/caiyongheng/tina/out/astar-parrot/compile_dir/toolchain/gcc-linaro-6.4-2017.11/configure --with-bugurl=https://dev.openwrt.org/ --with-pkgversion='OpenWrt/Linaro GCC 6.4-2017.11 2017-11' --prefix=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain --build=x86_64-linux-gnu --host=x86_64-linux-gnu --target=arm-openwrt-linux-muslgnueabi --with-gnu-ld --enable-target-optspace --enable-libgomp --disable-libmudflap --disable-multilib --disable-nls --without-isl --without-cloog --with-host-libstdcxx=-lstdc++ --with-gmp=/home/caiyongheng/tina/out/host --with-mpfr=/home/caiyongheng/tina/out/host --with-mpc=/home/caiyongheng/tina/out/host --disable-decimal-float --with-diagnostics-color=auto-if-env --disable-libssp --enable-__cxa_atexit --with-arch=armv7-a --with-float=hard --with-headers=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain/include --disable-libsanitizer --enable-languages=c,c++ --enable-shared --enable-threads --with-slibdir=/home/caiyongheng/tina/out/astar-parrot/staging_dir/toolchain/lib --enable-lto --with-libelf=/home/caiyongheng/tina/out/host]
+  ignore line: [Thread model: posix]
+  ignore line: [gcc version 6.4.1 (OpenWrt/Linaro GCC 6.4-2017.11 2017-11) ]
+  ignore line: [COMPILER_PATH=/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/:/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/bin/]
+  ignore line: [LIBRARY_PATH=/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/:/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/:/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/]
+  ignore line: [arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined]
+  ignore line: [arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined]
+  ignore line: [COLLECT_GCC_OPTIONS='-v' '-rdynamic' '-o' 'cmTC_87ee9' '-shared-libgcc' '-march=armv7-a' '-mfloat-abi=hard' '-mtls-dialect=gnu']
+  link line: [ /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2 -plugin /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so -plugin-opt=/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper -plugin-opt=-fresolution=/tmp/ccRvox1p.res -plugin-opt=-pass-through=-lgcc_s -plugin-opt=-pass-through=-lc -plugin-opt=-pass-through=-lgcc_s --eh-frame-hdr -export-dynamic -dynamic-linker /lib/ld-musl-armhf.so.1 -X -m armelf_linux_eabi -o cmTC_87ee9 /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o -L /usr/lib -rpath-link /usr/lib -L/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1 -L/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc -L/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib CMakeFiles/cmTC_87ee9.dir/CMakeCXXCompilerABI.cpp.o -lstdc++ -lm -lssp_nonshared -lgcc_s -lc -lgcc_s /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o]
+    arg [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/collect2] ==> ignore
+    arg [-plugin] ==> ignore
+    arg [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/liblto_plugin.so] ==> ignore
+    arg [-plugin-opt=/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../libexec/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/lto-wrapper] ==> ignore
+    arg [-plugin-opt=-fresolution=/tmp/ccRvox1p.res] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [-plugin-opt=-pass-through=-lc] ==> ignore
+    arg [-plugin-opt=-pass-through=-lgcc_s] ==> ignore
+    arg [--eh-frame-hdr] ==> ignore
+    arg [-export-dynamic] ==> ignore
+    arg [-dynamic-linker] ==> ignore
+    arg [/lib/ld-musl-armhf.so.1] ==> ignore
+    arg [-X] ==> ignore
+    arg [-m] ==> ignore
+    arg [armelf_linux_eabi] ==> ignore
+    arg [-o] ==> ignore
+    arg [cmTC_87ee9] ==> ignore
+    arg [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crt1.o] ==> ignore
+    arg [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crti.o] ==> ignore
+    arg [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtbegin.o] ==> ignore
+    arg [-L/usr/lib] ==> dir [/usr/lib]
+    arg [-rpath-link] ==> ignore
+    arg [/usr/lib] ==> ignore
+    arg [-L/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1] ==> dir [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1]
+    arg [-L/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc] ==> dir [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc]
+    arg [-L/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib] ==> dir [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib]
+    arg [CMakeFiles/cmTC_87ee9.dir/CMakeCXXCompilerABI.cpp.o] ==> ignore
+    arg [-lstdc++] ==> lib [stdc++]
+    arg [-lm] ==> lib [m]
+    arg [-lssp_nonshared] ==> lib [ssp_nonshared]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [-lc] ==> lib [c]
+    arg [-lgcc_s] ==> lib [gcc_s]
+    arg [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/crtend.o] ==> ignore
+    arg [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib/crtn.o] ==> ignore
+  collapse library dir [/usr/lib] ==> [/usr/lib]
+  collapse library dir [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1] ==> [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1]
+  collapse library dir [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc] ==> [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/lib/gcc]
+  collapse library dir [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/../lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1/../../../../arm-openwrt-linux-muslgnueabi/lib] ==> [/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/arm-openwrt-linux-muslgnueabi/lib]
+  implicit libs: [stdc++;m;ssp_nonshared;gcc_s;c;gcc_s]
+  implicit dirs: [/usr/lib;/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/lib/gcc/arm-openwrt-linux-muslgnueabi/6.4.1;/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/lib/gcc;/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/arm-openwrt-linux-muslgnueabi/lib]
+  implicit fwks: []
+
+
+
+
+Detecting CXX [-std=c++1z] compiler features compiled with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_58e6c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_58e6c.dir/build.make CMakeFiles/cmTC_58e6c.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_58e6c.dir/feature_tests.cxx.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++  -DV831  -std=c++1z -o CMakeFiles/cmTC_58e6c.dir/feature_tests.cxx.o -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/feature_tests.cxx
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_58e6c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_58e6c.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++       -rdynamic CMakeFiles/cmTC_58e6c.dir/feature_tests.cxx.o  -o cmTC_58e6c 
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++14] compiler features compiled with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1d820/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1d820.dir/build.make CMakeFiles/cmTC_1d820.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1d820.dir/feature_tests.cxx.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++  -DV831  -std=c++14 -o CMakeFiles/cmTC_1d820.dir/feature_tests.cxx.o -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/feature_tests.cxx
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_1d820
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1d820.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++       -rdynamic CMakeFiles/cmTC_1d820.dir/feature_tests.cxx.o  -o cmTC_1d820 
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:1cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:1cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:1cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:1cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:1cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:1cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:1cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:1cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:1cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:1cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:1cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++11] compiler features compiled with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1f864/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1f864.dir/build.make CMakeFiles/cmTC_1f864.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_1f864.dir/feature_tests.cxx.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++  -DV831  -std=c++11 -o CMakeFiles/cmTC_1f864.dir/feature_tests.cxx.o -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/feature_tests.cxx
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_1f864
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1f864.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++       -rdynamic CMakeFiles/cmTC_1f864.dir/feature_tests.cxx.o  -o cmTC_1f864 
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:1cxx_alias_templates
+    Feature record: CXX_FEATURE:1cxx_alignas
+    Feature record: CXX_FEATURE:1cxx_alignof
+    Feature record: CXX_FEATURE:1cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:1cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:1cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:1cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:1cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:1cxx_default_function_template_args
+    Feature record: CXX_FEATURE:1cxx_defaulted_functions
+    Feature record: CXX_FEATURE:1cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:1cxx_delegating_constructors
+    Feature record: CXX_FEATURE:1cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:1cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:1cxx_explicit_conversions
+    Feature record: CXX_FEATURE:1cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:1cxx_extern_templates
+    Feature record: CXX_FEATURE:1cxx_final
+    Feature record: CXX_FEATURE:1cxx_func_identifier
+    Feature record: CXX_FEATURE:1cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:1cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:1cxx_inline_namespaces
+    Feature record: CXX_FEATURE:1cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:1cxx_local_type_template_args
+    Feature record: CXX_FEATURE:1cxx_long_long_type
+    Feature record: CXX_FEATURE:1cxx_noexcept
+    Feature record: CXX_FEATURE:1cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:1cxx_nullptr
+    Feature record: CXX_FEATURE:1cxx_override
+    Feature record: CXX_FEATURE:1cxx_range_for
+    Feature record: CXX_FEATURE:1cxx_raw_string_literals
+    Feature record: CXX_FEATURE:1cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:1cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:1cxx_rvalue_references
+    Feature record: CXX_FEATURE:1cxx_sizeof_member
+    Feature record: CXX_FEATURE:1cxx_static_assert
+    Feature record: CXX_FEATURE:1cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:1cxx_thread_local
+    Feature record: CXX_FEATURE:1cxx_trailing_return_types
+    Feature record: CXX_FEATURE:1cxx_unicode_literals
+    Feature record: CXX_FEATURE:1cxx_uniform_initialization
+    Feature record: CXX_FEATURE:1cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:1cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:1cxx_variadic_macros
+    Feature record: CXX_FEATURE:1cxx_variadic_templates
+
+
+Detecting CXX [-std=c++98] compiler features compiled with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ae94f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ae94f.dir/build.make CMakeFiles/cmTC_ae94f.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_ae94f.dir/feature_tests.cxx.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++  -DV831  -std=c++98 -o CMakeFiles/cmTC_ae94f.dir/feature_tests.cxx.o -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/feature_tests.cxx
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_ae94f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ae94f.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++       -rdynamic CMakeFiles/cmTC_ae94f.dir/feature_tests.cxx.o  -o cmTC_ae94f 
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+    Feature record: CXX_FEATURE:0cxx_aggregate_default_initializers
+    Feature record: CXX_FEATURE:0cxx_alias_templates
+    Feature record: CXX_FEATURE:0cxx_alignas
+    Feature record: CXX_FEATURE:0cxx_alignof
+    Feature record: CXX_FEATURE:0cxx_attributes
+    Feature record: CXX_FEATURE:0cxx_attribute_deprecated
+    Feature record: CXX_FEATURE:0cxx_auto_type
+    Feature record: CXX_FEATURE:0cxx_binary_literals
+    Feature record: CXX_FEATURE:0cxx_constexpr
+    Feature record: CXX_FEATURE:0cxx_contextual_conversions
+    Feature record: CXX_FEATURE:0cxx_decltype
+    Feature record: CXX_FEATURE:0cxx_decltype_auto
+    Feature record: CXX_FEATURE:0cxx_decltype_incomplete_return_types
+    Feature record: CXX_FEATURE:0cxx_default_function_template_args
+    Feature record: CXX_FEATURE:0cxx_defaulted_functions
+    Feature record: CXX_FEATURE:0cxx_defaulted_move_initializers
+    Feature record: CXX_FEATURE:0cxx_delegating_constructors
+    Feature record: CXX_FEATURE:0cxx_deleted_functions
+    Feature record: CXX_FEATURE:0cxx_digit_separators
+    Feature record: CXX_FEATURE:0cxx_enum_forward_declarations
+    Feature record: CXX_FEATURE:0cxx_explicit_conversions
+    Feature record: CXX_FEATURE:0cxx_extended_friend_declarations
+    Feature record: CXX_FEATURE:0cxx_extern_templates
+    Feature record: CXX_FEATURE:0cxx_final
+    Feature record: CXX_FEATURE:0cxx_func_identifier
+    Feature record: CXX_FEATURE:0cxx_generalized_initializers
+    Feature record: CXX_FEATURE:0cxx_generic_lambdas
+    Feature record: CXX_FEATURE:0cxx_inheriting_constructors
+    Feature record: CXX_FEATURE:0cxx_inline_namespaces
+    Feature record: CXX_FEATURE:0cxx_lambdas
+    Feature record: CXX_FEATURE:0cxx_lambda_init_captures
+    Feature record: CXX_FEATURE:0cxx_local_type_template_args
+    Feature record: CXX_FEATURE:0cxx_long_long_type
+    Feature record: CXX_FEATURE:0cxx_noexcept
+    Feature record: CXX_FEATURE:0cxx_nonstatic_member_init
+    Feature record: CXX_FEATURE:0cxx_nullptr
+    Feature record: CXX_FEATURE:0cxx_override
+    Feature record: CXX_FEATURE:0cxx_range_for
+    Feature record: CXX_FEATURE:0cxx_raw_string_literals
+    Feature record: CXX_FEATURE:0cxx_reference_qualified_functions
+    Feature record: CXX_FEATURE:0cxx_relaxed_constexpr
+    Feature record: CXX_FEATURE:0cxx_return_type_deduction
+    Feature record: CXX_FEATURE:0cxx_right_angle_brackets
+    Feature record: CXX_FEATURE:0cxx_rvalue_references
+    Feature record: CXX_FEATURE:0cxx_sizeof_member
+    Feature record: CXX_FEATURE:0cxx_static_assert
+    Feature record: CXX_FEATURE:0cxx_strong_enums
+    Feature record: CXX_FEATURE:1cxx_template_template_parameters
+    Feature record: CXX_FEATURE:0cxx_thread_local
+    Feature record: CXX_FEATURE:0cxx_trailing_return_types
+    Feature record: CXX_FEATURE:0cxx_unicode_literals
+    Feature record: CXX_FEATURE:0cxx_uniform_initialization
+    Feature record: CXX_FEATURE:0cxx_unrestricted_unions
+    Feature record: CXX_FEATURE:0cxx_user_literals
+    Feature record: CXX_FEATURE:0cxx_variable_templates
+    Feature record: CXX_FEATURE:0cxx_variadic_macros
+    Feature record: CXX_FEATURE:0cxx_variadic_templates
+Determining if the include file pthread.h exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_30680/fast"
+/usr/bin/make -f CMakeFiles/cmTC_30680.dir/build.make CMakeFiles/cmTC_30680.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_30680.dir/CheckIncludeFile.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_30680.dir/CheckIncludeFile.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_30680
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_30680.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_30680.dir/CheckIncludeFile.c.o  -o cmTC_30680 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the pthread_create exist passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_005f7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_005f7.dir/build.make CMakeFiles/cmTC_005f7.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_005f7.dir/CheckSymbolExists.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_005f7.dir/CheckSymbolExists.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_005f7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_005f7.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_005f7.dir/CheckSymbolExists.c.o  -o cmTC_005f7 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+File /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <pthread.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef pthread_create
+  return ((int*)(&pthread_create))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Determining if the include file dlfcn.h exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8bf95/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8bf95.dir/build.make CMakeFiles/cmTC_8bf95.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8bf95.dir/CheckIncludeFile.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_8bf95.dir/CheckIncludeFile.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_8bf95
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bf95.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_8bf95.dir/CheckIncludeFile.c.o  -o cmTC_8bf95 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file execinfo.h exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_25df1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_25df1.dir/build.make CMakeFiles/cmTC_25df1.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_25df1.dir/CheckIncludeFile.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_25df1.dir/CheckIncludeFile.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_25df1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_25df1.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_25df1.dir/CheckIncludeFile.c.o  -o cmTC_25df1 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file glob.h exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4a707/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4a707.dir/build.make CMakeFiles/cmTC_4a707.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4a707.dir/CheckIncludeFile.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_4a707.dir/CheckIncludeFile.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_4a707
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4a707.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_4a707.dir/CheckIncludeFile.c.o  -o cmTC_4a707 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file inttypes.h exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fea38/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fea38.dir/build.make CMakeFiles/cmTC_fea38.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fea38.dir/CheckIncludeFile.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_fea38.dir/CheckIncludeFile.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_fea38
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fea38.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_fea38.dir/CheckIncludeFile.c.o  -o cmTC_fea38 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file memory.h exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d875e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d875e.dir/build.make CMakeFiles/cmTC_d875e.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_d875e.dir/CheckIncludeFile.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_d875e.dir/CheckIncludeFile.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_d875e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d875e.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_d875e.dir/CheckIncludeFile.c.o  -o cmTC_d875e 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file pwd.h exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_47a7d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_47a7d.dir/build.make CMakeFiles/cmTC_47a7d.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_47a7d.dir/CheckIncludeFile.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_47a7d.dir/CheckIncludeFile.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_47a7d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_47a7d.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_47a7d.dir/CheckIncludeFile.c.o  -o cmTC_47a7d 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdint.h exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_56d3d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_56d3d.dir/build.make CMakeFiles/cmTC_56d3d.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_56d3d.dir/CheckIncludeFile.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_56d3d.dir/CheckIncludeFile.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_56d3d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_56d3d.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_56d3d.dir/CheckIncludeFile.c.o  -o cmTC_56d3d 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stdlib.h exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_4642a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_4642a.dir/build.make CMakeFiles/cmTC_4642a.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_4642a.dir/CheckIncludeFile.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_4642a.dir/CheckIncludeFile.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_4642a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_4642a.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_4642a.dir/CheckIncludeFile.c.o  -o cmTC_4642a 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file string.h exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_be637/fast"
+/usr/bin/make -f CMakeFiles/cmTC_be637.dir/build.make CMakeFiles/cmTC_be637.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_be637.dir/CheckIncludeFile.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_be637.dir/CheckIncludeFile.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_be637
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_be637.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_be637.dir/CheckIncludeFile.c.o  -o cmTC_be637 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file strings.h exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_ace9e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_ace9e.dir/build.make CMakeFiles/cmTC_ace9e.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_ace9e.dir/CheckIncludeFile.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_ace9e.dir/CheckIncludeFile.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_ace9e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ace9e.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_ace9e.dir/CheckIncludeFile.c.o  -o cmTC_ace9e 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/stat.h exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_f6acc/fast"
+/usr/bin/make -f CMakeFiles/cmTC_f6acc.dir/build.make CMakeFiles/cmTC_f6acc.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_f6acc.dir/CheckIncludeFile.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_f6acc.dir/CheckIncludeFile.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_f6acc
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_f6acc.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_f6acc.dir/CheckIncludeFile.c.o  -o cmTC_f6acc 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/syscall.h exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_491fd/fast"
+/usr/bin/make -f CMakeFiles/cmTC_491fd.dir/build.make CMakeFiles/cmTC_491fd.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_491fd.dir/CheckIncludeFile.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_491fd.dir/CheckIncludeFile.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_491fd
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_491fd.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_491fd.dir/CheckIncludeFile.c.o  -o cmTC_491fd 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/time.h exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_1bcbe/fast"
+/usr/bin/make -f CMakeFiles/cmTC_1bcbe.dir/build.make CMakeFiles/cmTC_1bcbe.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_1bcbe.dir/CheckIncludeFile.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_1bcbe.dir/CheckIncludeFile.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_1bcbe
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_1bcbe.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_1bcbe.dir/CheckIncludeFile.c.o  -o cmTC_1bcbe 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/types.h exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6c9b8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6c9b8.dir/build.make CMakeFiles/cmTC_6c9b8.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6c9b8.dir/CheckIncludeFile.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_6c9b8.dir/CheckIncludeFile.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_6c9b8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6c9b8.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_6c9b8.dir/CheckIncludeFile.c.o  -o cmTC_6c9b8 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/utsname.h exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_24654/fast"
+/usr/bin/make -f CMakeFiles/cmTC_24654.dir/build.make CMakeFiles/cmTC_24654.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_24654.dir/CheckIncludeFile.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_24654.dir/CheckIncludeFile.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_24654
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_24654.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_24654.dir/CheckIncludeFile.c.o  -o cmTC_24654 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file sys/wait.h exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_509d2/fast"
+/usr/bin/make -f CMakeFiles/cmTC_509d2.dir/build.make CMakeFiles/cmTC_509d2.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_509d2.dir/CheckIncludeFile.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_509d2.dir/CheckIncludeFile.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_509d2
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_509d2.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_509d2.dir/CheckIncludeFile.c.o  -o cmTC_509d2 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file syscall.h exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_3faad/fast"
+/usr/bin/make -f CMakeFiles/cmTC_3faad.dir/build.make CMakeFiles/cmTC_3faad.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_3faad.dir/CheckIncludeFile.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_3faad.dir/CheckIncludeFile.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_3faad
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_3faad.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_3faad.dir/CheckIncludeFile.c.o  -o cmTC_3faad 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file syslog.h exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_49020/fast"
+/usr/bin/make -f CMakeFiles/cmTC_49020.dir/build.make CMakeFiles/cmTC_49020.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_49020.dir/CheckIncludeFile.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_49020.dir/CheckIncludeFile.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_49020
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_49020.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_49020.dir/CheckIncludeFile.c.o  -o cmTC_49020 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file ucontext.h exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2c448/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2c448.dir/build.make CMakeFiles/cmTC_2c448.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2c448.dir/CheckIncludeFile.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_2c448.dir/CheckIncludeFile.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_2c448
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2c448.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_2c448.dir/CheckIncludeFile.c.o  -o cmTC_2c448 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unistd.h exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7fe1f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7fe1f.dir/build.make CMakeFiles/cmTC_7fe1f.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7fe1f.dir/CheckIncludeFile.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_7fe1f.dir/CheckIncludeFile.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_7fe1f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7fe1f.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_7fe1f.dir/CheckIncludeFile.c.o  -o cmTC_7fe1f 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file ext/hash_map exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_db310/fast"
+/usr/bin/make -f CMakeFiles/cmTC_db310.dir/build.make CMakeFiles/cmTC_db310.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_db310.dir/CheckIncludeFile.cxx.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++  -DV831   -o CMakeFiles/cmTC_db310.dir/CheckIncludeFile.cxx.o -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+In file included from /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/arm-openwrt-linux-muslgnueabi/include/c++/6.4.1/ext/hash_map:60:0,
+                 from /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/arm-openwrt-linux-muslgnueabi/include/c++/6.4.1/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+ #warning \
+  ^~~~~~~
+Linking CXX executable cmTC_db310
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_db310.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++       -rdynamic CMakeFiles/cmTC_db310.dir/CheckIncludeFile.cxx.o  -o cmTC_db310 
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file ext/hash_set exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_435b1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_435b1.dir/build.make CMakeFiles/cmTC_435b1.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_435b1.dir/CheckIncludeFile.cxx.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++  -DV831   -o CMakeFiles/cmTC_435b1.dir/CheckIncludeFile.cxx.o -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+In file included from /home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/arm-openwrt-linux-muslgnueabi/include/c++/6.4.1/ext/hash_set:60:0,
+                 from /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx:1:
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/arm-openwrt-linux-muslgnueabi/include/c++/6.4.1/backward/backward_warning.h:32:2: warning: #warning This file includes at least one deprecated or antiquated header which may be removed without further notice at a future date. Please use a non-deprecated interface with equivalent functionality instead. For a listing of replacement headers and interfaces, consult the file backward_warning.h. To disable this warning use -Wno-deprecated. [-Wcpp]
+ #warning \
+  ^~~~~~~
+Linking CXX executable cmTC_435b1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_435b1.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++       -rdynamic CMakeFiles/cmTC_435b1.dir/CheckIncludeFile.cxx.o  -o cmTC_435b1 
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file ext/slist exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9412c/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9412c.dir/build.make CMakeFiles/cmTC_9412c.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9412c.dir/CheckIncludeFile.cxx.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++  -DV831   -o CMakeFiles/cmTC_9412c.dir/CheckIncludeFile.cxx.o -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_9412c
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9412c.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++       -rdynamic CMakeFiles/cmTC_9412c.dir/CheckIncludeFile.cxx.o  -o cmTC_9412c 
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file tr1/unordered_map exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd139/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fd139.dir/build.make CMakeFiles/cmTC_fd139.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fd139.dir/CheckIncludeFile.cxx.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++  -DV831   -o CMakeFiles/cmTC_fd139.dir/CheckIncludeFile.cxx.o -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_fd139
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd139.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++       -rdynamic CMakeFiles/cmTC_fd139.dir/CheckIncludeFile.cxx.o  -o cmTC_fd139 
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file tr1/unordered_set exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_76843/fast"
+/usr/bin/make -f CMakeFiles/cmTC_76843.dir/build.make CMakeFiles/cmTC_76843.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_76843.dir/CheckIncludeFile.cxx.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++  -DV831   -o CMakeFiles/cmTC_76843.dir/CheckIncludeFile.cxx.o -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_76843
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76843.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++       -rdynamic CMakeFiles/cmTC_76843.dir/CheckIncludeFile.cxx.o  -o cmTC_76843 
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unordered_map exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_95332/fast"
+/usr/bin/make -f CMakeFiles/cmTC_95332.dir/build.make CMakeFiles/cmTC_95332.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_95332.dir/CheckIncludeFile.cxx.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++  -DV831   -o CMakeFiles/cmTC_95332.dir/CheckIncludeFile.cxx.o -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_95332
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_95332.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++       -rdynamic CMakeFiles/cmTC_95332.dir/CheckIncludeFile.cxx.o  -o cmTC_95332 
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file unordered_set exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_06f4d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_06f4d.dir/build.make CMakeFiles/cmTC_06f4d.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_06f4d.dir/CheckIncludeFile.cxx.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++  -DV831   -o CMakeFiles/cmTC_06f4d.dir/CheckIncludeFile.cxx.o -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.cxx
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_06f4d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_06f4d.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++       -rdynamic CMakeFiles/cmTC_06f4d.dir/CheckIncludeFile.cxx.o  -o cmTC_06f4d 
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the include file stddef.h exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_76a59/fast"
+/usr/bin/make -f CMakeFiles/cmTC_76a59.dir/build.make CMakeFiles/cmTC_76a59.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_76a59.dir/CheckIncludeFile.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_76a59.dir/CheckIncludeFile.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckIncludeFile.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_76a59
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_76a59.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_76a59.dir/CheckIncludeFile.c.o  -o cmTC_76a59 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of u_int16_t passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_a5b15/fast"
+/usr/bin/make -f CMakeFiles/cmTC_a5b15.dir/build.make CMakeFiles/cmTC_a5b15.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_a5b15.dir/HAVE_U_INT16_T.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_a5b15.dir/HAVE_U_INT16_T.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CheckTypeSize/HAVE_U_INT16_T.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_a5b15
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_a5b15.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_a5b15.dir/HAVE_U_INT16_T.c.o  -o cmTC_a5b15 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining size of uint16_t passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_43d6f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_43d6f.dir/build.make CMakeFiles/cmTC_43d6f.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_43d6f.dir/HAVE_UINT16_T.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_43d6f.dir/HAVE_UINT16_T.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CheckTypeSize/HAVE_UINT16_T.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_43d6f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_43d6f.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_43d6f.dir/HAVE_UINT16_T.c.o  -o cmTC_43d6f 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function dladdr exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_6977a/fast"
+/usr/bin/make -f CMakeFiles/cmTC_6977a.dir/build.make CMakeFiles/cmTC_6977a.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_6977a.dir/CheckFunctionExists.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831  -DCHECK_FUNCTION_EXISTS=dladdr   -o CMakeFiles/cmTC_6977a.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_6977a
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_6977a.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc  -DCHECK_FUNCTION_EXISTS=dladdr    -rdynamic CMakeFiles/cmTC_6977a.dir/CheckFunctionExists.c.o  -o cmTC_6977a 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function fcntl exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_291f9/fast"
+/usr/bin/make -f CMakeFiles/cmTC_291f9.dir/build.make CMakeFiles/cmTC_291f9.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_291f9.dir/CheckFunctionExists.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831  -DCHECK_FUNCTION_EXISTS=fcntl   -o CMakeFiles/cmTC_291f9.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_291f9
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_291f9.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc  -DCHECK_FUNCTION_EXISTS=fcntl    -rdynamic CMakeFiles/cmTC_291f9.dir/CheckFunctionExists.c.o  -o cmTC_291f9 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pread exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_0b3b7/fast"
+/usr/bin/make -f CMakeFiles/cmTC_0b3b7.dir/build.make CMakeFiles/cmTC_0b3b7.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_0b3b7.dir/CheckFunctionExists.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831  -DCHECK_FUNCTION_EXISTS=pread   -o CMakeFiles/cmTC_0b3b7.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_0b3b7
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_0b3b7.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc  -DCHECK_FUNCTION_EXISTS=pread    -rdynamic CMakeFiles/cmTC_0b3b7.dir/CheckFunctionExists.c.o  -o cmTC_0b3b7 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function pwrite exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fcad4/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fcad4.dir/build.make CMakeFiles/cmTC_fcad4.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_fcad4.dir/CheckFunctionExists.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831  -DCHECK_FUNCTION_EXISTS=pwrite   -o CMakeFiles/cmTC_fcad4.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_fcad4
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fcad4.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc  -DCHECK_FUNCTION_EXISTS=pwrite    -rdynamic CMakeFiles/cmTC_fcad4.dir/CheckFunctionExists.c.o  -o cmTC_fcad4 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sigaction exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9ca4e/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9ca4e.dir/build.make CMakeFiles/cmTC_9ca4e.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_9ca4e.dir/CheckFunctionExists.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831  -DCHECK_FUNCTION_EXISTS=sigaction   -o CMakeFiles/cmTC_9ca4e.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_9ca4e
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9ca4e.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc  -DCHECK_FUNCTION_EXISTS=sigaction    -rdynamic CMakeFiles/cmTC_9ca4e.dir/CheckFunctionExists.c.o  -o cmTC_9ca4e 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Determining if the function sigaltstack exists passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c8b61/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c8b61.dir/build.make CMakeFiles/cmTC_c8b61.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c8b61.dir/CheckFunctionExists.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831  -DCHECK_FUNCTION_EXISTS=sigaltstack   -o CMakeFiles/cmTC_c8b61.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_c8b61
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c8b61.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc  -DCHECK_FUNCTION_EXISTS=sigaltstack    -rdynamic CMakeFiles/cmTC_c8b61.dir/CheckFunctionExists.c.o  -o cmTC_c8b61 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+
+Performing C++ SOURCE FILE Test HAVE_NO_DEPRECATED succeeded with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_bbcb6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_bbcb6.dir/build.make CMakeFiles/cmTC_bbcb6.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_bbcb6.dir/src.cxx.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++  -DV831  -DHAVE_NO_DEPRECATED   -Wdeprecated -o CMakeFiles/cmTC_bbcb6.dir/src.cxx.o -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/src.cxx
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_bbcb6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_bbcb6.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++   -DHAVE_NO_DEPRECATED    -rdynamic CMakeFiles/cmTC_bbcb6.dir/src.cxx.o  -o cmTC_bbcb6 
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+int main() { return 0; }
+Determining if the snprintf exist passed with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_15614/fast"
+/usr/bin/make -f CMakeFiles/cmTC_15614.dir/build.make CMakeFiles/cmTC_15614.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_15614.dir/CheckSymbolExists.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831   -o CMakeFiles/cmTC_15614.dir/CheckSymbolExists.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_15614
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_15614.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc      -rdynamic CMakeFiles/cmTC_15614.dir/CheckSymbolExists.c.o  -o cmTC_15614 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+File /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
+/* */
+#include <stdio.h>
+
+int main(int argc, char** argv)
+{
+  (void)argv;
+#ifndef snprintf
+  return ((int*)(&snprintf))[argc];
+#else
+  (void)argc;
+  return 0;
+#endif
+}
+
+Performing C SOURCE FILE Test HAVE___ATTRIBUTE__ succeeded with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_28b73/fast"
+/usr/bin/make -f CMakeFiles/cmTC_28b73.dir/build.make CMakeFiles/cmTC_28b73.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_28b73.dir/src.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831  -DHAVE___ATTRIBUTE__   -o CMakeFiles/cmTC_28b73.dir/src.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_28b73
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28b73.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc  -DHAVE___ATTRIBUTE__    -rdynamic CMakeFiles/cmTC_28b73.dir/src.c.o  -o cmTC_28b73 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <stdlib.h>
+static void foo(void) __attribute__ ((unused));
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_DEFAULT succeeded with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5ee2d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5ee2d.dir/build.make CMakeFiles/cmTC_5ee2d.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_5ee2d.dir/src.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831  -DHAVE___ATTRIBUTE__VISIBILITY_DEFAULT   -o CMakeFiles/cmTC_5ee2d.dir/src.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/src.c:3:1: warning: 'visibility' attribute ignored [-Wattributes]
+ static void foo(void) __attribute__ ((visibility("default")));
+ ^~~~~~
+Linking C executable cmTC_5ee2d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5ee2d.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc  -DHAVE___ATTRIBUTE__VISIBILITY_DEFAULT    -rdynamic CMakeFiles/cmTC_5ee2d.dir/src.c.o  -o cmTC_5ee2d 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <stdlib.h>
+static void foo(void) __attribute__ ((visibility("default")));
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE___ATTRIBUTE__VISIBILITY_HIDDEN succeeded with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_7c902/fast"
+/usr/bin/make -f CMakeFiles/cmTC_7c902.dir/build.make CMakeFiles/cmTC_7c902.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_7c902.dir/src.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831  -DHAVE___ATTRIBUTE__VISIBILITY_HIDDEN   -o CMakeFiles/cmTC_7c902.dir/src.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/src.c:3:1: warning: 'visibility' attribute ignored [-Wattributes]
+ static void foo(void) __attribute__ ((visibility("hidden")));
+ ^~~~~~
+Linking C executable cmTC_7c902
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_7c902.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc  -DHAVE___ATTRIBUTE__VISIBILITY_HIDDEN    -rdynamic CMakeFiles/cmTC_7c902.dir/src.c.o  -o cmTC_7c902 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <stdlib.h>
+static void foo(void) __attribute__ ((visibility("hidden")));
+int main(void) { return 0; }
+
+Performing C SOURCE FILE Test HAVE___BUILTIN_EXPECT succeeded with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_c615d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c615d.dir/build.make CMakeFiles/cmTC_c615d.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_c615d.dir/src.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831  -DHAVE___BUILTIN_EXPECT   -o CMakeFiles/cmTC_c615d.dir/src.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_c615d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c615d.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc  -DHAVE___BUILTIN_EXPECT    -rdynamic CMakeFiles/cmTC_c615d.dir/src.c.o  -o cmTC_c615d 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+int main(void) { if (__builtin_expect(0, 0)) return 1; return 0; }
+
+Performing C SOURCE FILE Test HAVE___SYNC_VAL_COMPARE_AND_SWAP succeeded with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_8bfd6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_8bfd6.dir/build.make CMakeFiles/cmTC_8bfd6.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_8bfd6.dir/src.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831  -DHAVE___SYNC_VAL_COMPARE_AND_SWAP   -o CMakeFiles/cmTC_8bfd6.dir/src.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_8bfd6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_8bfd6.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc  -DHAVE___SYNC_VAL_COMPARE_AND_SWAP    -rdynamic CMakeFiles/cmTC_8bfd6.dir/src.c.o  -o cmTC_8bfd6 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+int main(void)
+{
+  int a; if (__sync_val_compare_and_swap(&a, 0, 1)) return 1; return 0;
+}
+
+Performing C SOURCE FILE Test HAVE_RWLOCK succeeded with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_2cd91/fast"
+/usr/bin/make -f CMakeFiles/cmTC_2cd91.dir/build.make CMakeFiles/cmTC_2cd91.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building C object CMakeFiles/cmTC_2cd91.dir/src.c.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc -DV831  -DHAVE_RWLOCK   -o CMakeFiles/cmTC_2cd91.dir/src.c.o   -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/src.c
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking C executable cmTC_2cd91
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_2cd91.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-gcc  -DHAVE_RWLOCK    -rdynamic CMakeFiles/cmTC_2cd91.dir/src.c.o  -o cmTC_2cd91 
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-gcc.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#define _XOPEN_SOURCE 500
+#include <pthread.h>
+int main(void)
+{
+  pthread_rwlock_t l;
+  pthread_rwlock_init(&l, NULL);
+  pthread_rwlock_rdlock(&l);
+  return 0;
+}
+
+Performing C++ SOURCE FILE Test STL_STD_NAMESPACE succeeded with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_d3844/fast"
+/usr/bin/make -f CMakeFiles/cmTC_d3844.dir/build.make CMakeFiles/cmTC_d3844.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_d3844.dir/src.cxx.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++  -DV831  -DSTL_STD_NAMESPACE   -o CMakeFiles/cmTC_d3844.dir/src.cxx.o -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/src.cxx
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_d3844
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_d3844.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++   -DSTL_STD_NAMESPACE    -rdynamic CMakeFiles/cmTC_d3844.dir/src.cxx.o  -o cmTC_d3844 
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <vector>
+std::vector<int> t; int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_USING_OPERATOR succeeded with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_fd900/fast"
+/usr/bin/make -f CMakeFiles/cmTC_fd900.dir/build.make CMakeFiles/cmTC_fd900.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_fd900.dir/src.cxx.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++  -DV831  -DHAVE_USING_OPERATOR   -o CMakeFiles/cmTC_fd900.dir/src.cxx.o -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/src.cxx
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_fd900
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_fd900.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++   -DHAVE_USING_OPERATOR    -rdynamic CMakeFiles/cmTC_fd900.dir/src.cxx.o  -o cmTC_fd900 
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <iostream>
+std::ostream& operator<<(std::ostream&, struct s);
+using ::operator<<;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_NAMESPACES succeeded with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_b2c32/fast"
+/usr/bin/make -f CMakeFiles/cmTC_b2c32.dir/build.make CMakeFiles/cmTC_b2c32.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_b2c32.dir/src.cxx.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++  -DV831  -DHAVE_NAMESPACES   -o CMakeFiles/cmTC_b2c32.dir/src.cxx.o -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/src.cxx
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_b2c32
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_b2c32.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++   -DHAVE_NAMESPACES    -rdynamic CMakeFiles/cmTC_b2c32.dir/src.cxx.o  -o cmTC_b2c32 
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+namespace Outer { namespace Inner { int i = 0; }}
+using namespace Outer::Inner;;
+int main() { return i; }
+
+Performing C++ SOURCE FILE Test HAVE_GCC_TLS succeeded with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_28b48/fast"
+/usr/bin/make -f CMakeFiles/cmTC_28b48.dir/build.make CMakeFiles/cmTC_28b48.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_28b48.dir/src.cxx.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++  -DV831  -DHAVE_GCC_TLS   -o CMakeFiles/cmTC_28b48.dir/src.cxx.o -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/src.cxx
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_28b48
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_28b48.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++   -DHAVE_GCC_TLS    -rdynamic CMakeFiles/cmTC_28b48.dir/src.cxx.o  -o cmTC_28b48 
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+__thread int tls;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_CXX11_TLS succeeded with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_df4a1/fast"
+/usr/bin/make -f CMakeFiles/cmTC_df4a1.dir/build.make CMakeFiles/cmTC_df4a1.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_df4a1.dir/src.cxx.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++  -DV831  -DHAVE_CXX11_TLS   -o CMakeFiles/cmTC_df4a1.dir/src.cxx.o -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/src.cxx
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_df4a1
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_df4a1.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++   -DHAVE_CXX11_TLS    -rdynamic CMakeFiles/cmTC_df4a1.dir/src.cxx.o  -o cmTC_df4a1 
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+thread_local int tls;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_ALIGNED_STORAGE succeeded with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_5e6a8/fast"
+/usr/bin/make -f CMakeFiles/cmTC_5e6a8.dir/build.make CMakeFiles/cmTC_5e6a8.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_5e6a8.dir/src.cxx.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++  -DV831  -DHAVE_ALIGNED_STORAGE   -o CMakeFiles/cmTC_5e6a8.dir/src.cxx.o -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/src.cxx
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_5e6a8
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_5e6a8.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++   -DHAVE_ALIGNED_STORAGE    -rdynamic CMakeFiles/cmTC_5e6a8.dir/src.cxx.o  -o cmTC_5e6a8 
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <type_traits>
+std::aligned_storage<sizeof(char), alignof(char)>::type data;
+int main() { }
+
+Performing C++ SOURCE FILE Test HAVE_LOCALTIME_R succeeded with the following output:
+Change Dir: /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp
+
+Run Build Command:"/usr/bin/make" "cmTC_9782f/fast"
+/usr/bin/make -f CMakeFiles/cmTC_9782f.dir/build.make CMakeFiles/cmTC_9782f.dir/build
+make[1]: Entering directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+Building CXX object CMakeFiles/cmTC_9782f.dir/src.cxx.o
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++  -DV831  -DHAVE_LOCALTIME_R   -o CMakeFiles/cmTC_9782f.dir/src.cxx.o -c /home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp/src.cxx
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+Linking CXX executable cmTC_9782f
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_9782f.dir/link.txt --verbose=1
+/home/myuan/v831/v831-ncnn-main/toolchain-sunxi-musl/toolchain/bin/arm-openwrt-linux-muslgnueabi-g++   -DHAVE_LOCALTIME_R    -rdynamic CMakeFiles/cmTC_9782f.dir/src.cxx.o  -o cmTC_9782f 
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+arm-openwrt-linux-muslgnueabi-g++.bin: warning: environment variable 'STAGING_DIR' not defined
+make[1]: Leaving directory '/home/myuan/v831/nna/eyesee-mpp/system/public/glog/build/CMakeFiles/CMakeTmp'
+
+Source file was:
+
+#include <cstdlib>
+#include <time.h>
+int main()
+{
+    time_t timep;
+    struct tm result;
+    localtime_r(&timep, &result);
+    return EXIT_SUCCESS;
+}
+
